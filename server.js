@@ -23,7 +23,7 @@ const localAuthMiddelware = passport.authenticate("local", { session: false });
 app.get("/", (req, res) => {
   res.send("welcome to the hotels");
 });
-
+// hello from Yash
 app.use("/person", personRouter);
 app.use("/data", dataRoutes);
 
